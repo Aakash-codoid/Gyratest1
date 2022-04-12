@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-11T05:58:44.315Z",
+        "line": 5,
+        "name": "User verifies Register page",
+        "description": "",
+        "id": "verification-of-register-page;user-verifies-register-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Login Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the Register button",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_click_the_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Register Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_should_see_register_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Register page",
+    "description": "",
+    "id": "verification-of-register-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Ooredoo_MobileApp/regression/Feature3.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-11T06:27:04.794Z",
+        "line": 13,
+        "name": "User validates login page and verifies Home Page",
+        "description": "",
+        "id": "verification-of-home-page;user-validates-login-page-and-verifies-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Login Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter TESTUSER1 and PASSWORD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TESTUSER1",
+                  "offset": 8
+                },
+                {
+                  "val": "PASSWORD",
+                  "offset": 22
+                }
+              ],
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.iEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Home Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.iShouldSeeHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-11T06:27:04.951Z",
+        "line": 14,
+        "name": "User validates login page and verifies Home Page",
+        "description": "",
+        "id": "verification-of-home-page;user-validates-login-page-and-verifies-home-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Login Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter TESTUSER2 and PASSWORD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TESTUSER2",
+                  "offset": 8
+                },
+                {
+                  "val": "PASSWORD",
+                  "offset": 22
+                }
+              ],
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.iEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Home Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.iShouldSeeHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Home page",
+    "description": "",
+    "id": "verification-of-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Ooredoo_MobileApp/regression/Feature7.feature",
+    "tags": []
+  }
+]

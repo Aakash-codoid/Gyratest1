@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-11T06:32:24.598Z",
+        "line": 5,
+        "name": "User verifies Register page",
+        "description": "",
+        "id": "verification-of-home-page;user-verifies-register-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Login Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the Register button",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_click_the_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Register Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_should_see_register_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-11T06:32:24.732Z",
+        "line": 19,
+        "name": "User validates login page and verifies Home Page",
+        "description": "",
+        "id": "verification-of-home-page;user-validates-login-page-and-verifies-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on Login Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter TESTUSER1 and PASSWORD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TESTUSER1",
+                  "offset": 8
+                },
+                {
+                  "val": "PASSWORD",
+                  "offset": 22
+                }
+              ],
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.iEnterAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see Home Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.iShouldSeeHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Home page",
+    "description": "",
+    "id": "verification-of-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Ooredoo_MobileApp/regression/Feature8.feature",
+    "tags": []
+  }
+]

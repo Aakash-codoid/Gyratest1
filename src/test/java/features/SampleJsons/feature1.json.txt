@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-11T05:52:52.385Z",
+        "line": 4,
+        "name": "User verifies Login page",
+        "description": "",
+        "id": "verification-of-login-page;user-verifies-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Login Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the Register button",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_click_the_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see Register Page",
+            "match": {
+              "location": "Ooredoo_MobileApp.stepDefinitions.SampleStepdef.i_should_see_register_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Login page",
+    "description": "",
+    "id": "verification-of-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Ooredoo_MobileApp/regression/Feature1.feature",
+    "tags": []
+  }
+]
